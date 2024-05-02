@@ -6,7 +6,7 @@ export const Button = ({
   scrollTo,
 }: {
   children: string;
-  scrollTo: () => void;
+  scrollTo?: () => void;
 }) => {
   return (
     <button
